@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentPlus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Top Bar -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="student-management.html">Student Management</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <h1>Dashboard</h1>
+            </div>
+
+            <div class="dashboard">
+                <div class="card">
+                    <h3>Total Students</h3>
+                    <p><span id="total-students">0</span></p>
+                </div>
+                <div class="card">
+                    <h3>Attendance Rate</h3>
+                    <p>95%</p>
+                </div>
+                <div class="card">
+                    <h3>Upcoming Events</h3>
+                    <p>3 Events</p>
+                </div>
+            </div>
+
+            <div class="notifications">
+                <h3>Recent Notifications</h3>
+                <div class="notification-item">
+                    <p>New event: Science Fair on March 10th</p>
+                </div>
+                <div class="notification-item">
+                    <p>Reminder: Submit term reports by January 25th</p>
+                </div>
+                <div class="notification-item">
+                    <p>Sports day scheduled for February 5th</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+.venv
+venv
+lib
+Scripts
+node_modules

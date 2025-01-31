@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "role": "administrator"
+    },
+    {
+      "username": "teacher1",
+      "password": "teach123",
+      "role": "teacher"
+    },
+    {
+      "username": "student1",
+      "password": "stud123",
+      "role": "student"
+    }
+  ],
+  "roles_permissions": {
+    "administrator": ["manage_students", "view_reports", "system_settings"],
+    "teacher": ["update_grades", "view_class_data"],
+    "student": ["view_profile", "view_updates"]
+  }
+}
